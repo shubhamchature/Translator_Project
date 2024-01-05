@@ -1,0 +1,50 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Open Sans', sans-serif;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+body > div {
+    display: flex;
+    background: #ddd;
+    height: 100vh;
+}
+
+ul {
+    list-style-type: none;
+    padding: 0rem;
+}
+
+body > div > * {
+    flex: 1;
+    padding: 1rem;
+}
+
+body > div > div {
+    background: #fff;
+}
+
+form > div {
+    padding: 0.5rem 0rem;
+}
+
+input, select {
+    padding: 0.5rem;
+    background: #ddd;
+    border: 2px solid #7b7b7b;
+    width: 100%;
+}
+
+button {
+    background: #333;
+    color: #ddd;
+    padding: 0.5rem;
+    border: none;
+    width: 100%;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: bold;
+}
