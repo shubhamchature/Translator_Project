@@ -20,6 +20,10 @@ li {
     cursor: pointer;
 }
 
+option {
+    color: #000;
+}
+
 li:hover {
     background: #3d3d3d;
     color: #fff;
