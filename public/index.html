@@ -5,22 +5,24 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="/index.css" />
-    <link rel="preconnect" href="https://fonts.googleapis.com">
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;500;600;700&display=swap" rel="stylesheet">
-    <title>Babel Bridge</title>
+<link href="https://fonts.googleapis.com/css2?family=Ubuntu:wght@300;400;500;700&display=swap" rel="stylesheet">
+    <title>Texty</title>
 </head>
 
 <body>
     <div>
         <form>
             <div>
-                <h1>Babel Bridge</h1>
-                <p>
-The Babel Bridge Translate app aims to revolutionize language translation by offering seamless and accurate conversion of text across various languages. It boasts a user-friendly interface that supports a multitude of languages, providing real-time translations for text inputted by users.</p>
+                <h1>Texty</h1>
+                <p>The Texty Translate app aims to revolutionize language translation by offering seamless and 
+                    accurate conversion of text across various languages. It boasts a user-friendly interface that supports 
+                    a multitude of languages, providing real-time translations for text input by users.</p>
             </div>
             <div>
-                <input type="text" name="org_text" id="orgText" placeholder="Enter the text">
+                <textarea type="text" name="org_text" id="orgText" placeholder="Enter the text" rows="10"></textarea>
             </div>
             <div>
                 <select>
@@ -30,14 +32,18 @@ The Babel Bridge Translate app aims to revolutionize language translation by off
                                 <option value="ru">Russian</option>
                                 <option value="de">German</option>
                                 <option value="hi">Hindi</option>
+                                
                 </select>
             </div>
             <div>
-                <button type="submit">Translate</button>
+                <button type="submit">TRANSLATE</button>
             </div>
         </form>
 
         <div>
+            <div>
+                <h1>Recent Searches</h1>
+            </div>
             <ul id="result"></ul>
         </div>
     </div>

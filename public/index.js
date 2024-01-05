@@ -1,7 +1,7 @@
 (() => {
     const form = document.querySelector("form")
     const select = document.querySelector("select")
-    const org_text = document.querySelector("input")
+    const org_text = document.querySelector("textarea")
     let result = document.querySelector("#result")
 
     const fetchResult = () => {
@@ -16,7 +16,8 @@
     const renderResult = (data) => {
         data.forEach( ({orgText, transText, langCode}) => {
             let li = document.createElement("li")
-            li.innerText = `${orgText} - ${transText} - ${langCode}`
+            li.className = "card"
+            li.innerHTML = `<div>${orgText}</div><div>${transText}</div><div>${langCode}</div>`
 
             result.appendChild(li)
         });
