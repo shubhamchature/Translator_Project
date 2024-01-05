@@ -10,8 +10,8 @@ app.use(express.static("public"))
 app.use(bodyParser.urlencoded({ extended: true }))
 app.use(bodyParser.json())
 
-let key = "ce9c5786e30b41948e4cf67f276b2e5e";
-let endpoint = "https://api.cognitive.microsofttranslator.com";
+let key = "cf2cea44a7c04ff1b8aa86d7b309d748";
+let endpoint = "https://api.cognitive.microsofttranslator.com/";
 let uri = process.env.MONGO_URI || "mongodb://babelbridge-db:CTyjmMzkY786hHFwbvRuhQjRjenNT2k9Eat0k8g6CaIq2XhtvJQqFPLnv746jhujAoZhjf6qdyISACDbfuXH3Q==@babelbridge-db.mongo.cosmos.azure.com:10255/?ssl=true&retrywrites=false&maxIdleTimeMS=120000&appName=@babelbridge-db@"
 let location = "eastus";
 let client = new MongoClient(uri);
