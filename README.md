@@ -3,10 +3,8 @@
 <br>
 <h2>Project Details</h2>
 <b>Project Demo URL :</b> https://textyapp.azurewebsites.net/ <br>
-
 <b>Demo Video URL :</b> https://drive.google.com/file/d/19Twl0ktXCS5khqrcDbs_CwMujbZGmapJ/view?usp=drive_link <br>
-
-<b>Github Repository URL :</b> https://github.com/AnkeetaGupta/flask-ai-translation.git <br>
+<b>Github Repository URL :</b> https://github.com/shubhamchature/texty/tree/main <br>
 
 <b>Industry :</b> Lifestyle and Technology<br>
 <h2>Azure Services Used</h2>
